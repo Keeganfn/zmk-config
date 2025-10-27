@@ -74,10 +74,10 @@
 
         layer_4 {
             bindings = <
-           &kp N1  &kp N2  &kp N3  &kp N4       &kp N5    &kp N6     &kp N7        &kp N8        &kp N9          &kp N0
-           &trans  &trans  &trans  &kp LS(DQT)  &trans    &kp EQUAL  &kp LBKT      &kp RBKT      &kp UNDERSCORE  &kp LS(COLON)
-&kp GRAVE  &trans  &trans  &trans  &trans       &trans    &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp DOT         &trans         &trans
-                           &trans  &trans       &trans    &trans     &trans        &trans
+           &kp N1  &kp N2  &kp N3  &kp N4       &kp N5           &kp N6     &kp N7        &kp N8        &kp N9          &kp N0
+           &trans  &trans  &trans  &kp LS(DQT)  &kp BACKSPACE    &kp EQUAL  &kp LBKT      &kp RBKT      &kp UNDERSCORE  &kp LS(COLON)
+&kp GRAVE  &trans  &trans  &trans  &trans       &trans           &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp DOT         &trans         &trans
+                           &trans  &trans       &trans           &trans     &trans        &trans
             >;
         };
 
