@@ -75,9 +75,9 @@
         Nav {
             display-name = "Nav";
             bindings = <
-                &kp EXCL  &kp AT      &kp HASH   &kp DOLLAR    &kp PERCENT     &kp CARET       &kp AMPERSAND   &kp KP_ASTERISK  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE
-                &trans    &kp ESCAPE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW    &trans
-&studio_unlock  &trans    &trans      &trans     &trans        &trans          &kp EQUAL       &kp UNDER       &kp PAGE_UP      &kp PAGE_DOWN      &kp SLASH         &kp HOME
+                &kp EXCL  &kp AT      &kp HASH   &kp DOLLAR    &kp PERCENT     &kp K_UNDO      &kp K_COPY      &kp K_PASTE   &kp BACKSPACE    &kp K_REDO
+                &trans    &kp ESCAPE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&studio_unlock  &trans    &trans      &trans     &trans        &trans          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp SLASH   &kp HOME
                                       &trans     &trans        &trans          &trans          &trans          &trans
             >;
         };
