@@ -75,10 +75,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-                &kp EXCL  &kp AT      &kp HASH   &kp DOLLAR    &kp PERCENT     &kp K_UNDO      &kp K_COPY      &kp K_PASTE   &kp BACKSPACE    &kp K_REDO
-                &trans    &kp ESCAPE  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&studio_unlock  &trans    &trans      &trans     &trans        &trans          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp SLASH   &kp HOME
-                                      &trans     &trans        &trans          &trans          &trans          &trans
+                &kp K_REDO      &kp K_CUT   &kp K_COPY  &kp K_PASTE   &kp K_UNDO      &kp K_UNDO      &kp K_PASTE     &kp K_COPY    &kp BACKSPACE    &kp K_REDO
+                &kp LEFT_SHIFT  &kp ESCAPE  &kp LCTRL   &kp LEFT_ALT  &kp LEFT_GUI    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&studio_unlock  &trans          &trans      &trans      &trans        &trans          &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans      &kp DEL
+                                            &trans      &trans        &trans          &trans          &trans          &trans
             >;
         };
 
